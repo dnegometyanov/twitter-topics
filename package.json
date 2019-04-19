@@ -1,0 +1,28 @@
+{
+  "name": "twitter-topics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnegometyanov/twitter-topics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnegometyanov/twitter-topics/issues"
+  },
+  "homepage": "https://github.com/dnegometyanov/twitter-topics#readme",
+  "devDependencies": {
+    "ts-node": "^8.1.0"
+  },
+  "dependencies": {
+    "@types/node": "^11.13.5",
+    "oauth": "^0.9.15"
+  }
+}
